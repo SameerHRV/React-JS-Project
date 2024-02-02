@@ -2,13 +2,14 @@ import { useState } from "react";
 
 function App() {
   let [counter, setCounter] = useState(0);
-
+  console.log("dkdkmnkc");
   const addValue = () => {
     counter += 1;
     if (counter >= 0 && counter <= 50) {
       setCounter(counter);
     }
   };
+  
 
   const removeValue = () => {
     counter -= 1;
